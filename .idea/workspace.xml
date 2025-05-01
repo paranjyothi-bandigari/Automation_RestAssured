@@ -4,32 +4,151 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de5af417-770b-4b4c-98f8-d170d39a463c" name="Changes" comment="" />
+    <list default="true" id="de5af417-770b-4b4c-98f8-d170d39a463c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GET/BDD/Get_BDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GET/BDD/Get_BDD_2test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GET/BDD/Get_NonBDD_2tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GET/BDD/NonBDD_Get.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GetBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/POST/BDD_Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/POST/NonBDD_Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/PUT/BDD_Put_Testng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/PUT/NonBDD_PUT_Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test001.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "paranjyothi-bandigari"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/paranjyothi-bandigari/Automation_RestAssured.git",
+    "accountId": "da015dfe-dbe5-48f3-b9bb-47d7f67e0556"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2wVByVruKZPT6hQdZbF8RRhheHJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BDD_Post.executor": "Run",
+    "Application.GetBooking.executor": "Run",
+    "Application.Get_BDD.executor": "Run",
+    "Application.Get_BDD_2test.executor": "Run",
+    "Application.Get_NonBDD_2tests.executor": "Run",
+    "Application.NonBDD_Get.executor": "Run",
+    "Application.NonBDD_Post.executor": "Run",
+    "Application.test001.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/nagarjunakoppala/IdeaProjects/Automation_RestAssured/testng.xml.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.NonBDD_Get">
+    <configuration name="BDD_Post" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.POST.BDD_Post" />
+      <module name="Automation_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacadamy.POST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get_NonBDD_2tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.GET.BDD.Get_NonBDD_2tests" />
+      <module name="Automation_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacadamy.GET.BDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDD_Get" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.GET.BDD.NonBDD_Get" />
+      <module name="Automation_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacadamy.GET.BDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDD_Post" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.POST.NonBDD_Post" />
+      <module name="Automation_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacadamy.POST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/nagarjunakoppala/IdeaProjects/Automation_RestAssured/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_RestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NonBDD_Get" />
+        <item itemvalue="Application.Get_NonBDD_2tests" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/Automation_RestAssured/testng.xml" />
+        <item itemvalue="Application.NonBDD_Post" />
+        <item itemvalue="Application.BDD_Post" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
