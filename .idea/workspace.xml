@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de5af417-770b-4b4c-98f8-d170d39a463c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GET/BDD/Get_BDD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GET/BDD/Get_BDD_2test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GET/BDD/Get_NonBDD_2tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GET/BDD/NonBDD_Get.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/GetBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/POST/BDD_Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/POST/NonBDD_Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/PUT/BDD_Put_Testng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/PUT/NonBDD_PUT_Testing.java" afterDir="false" />
+    <list default="true" id="de5af417-770b-4b4c-98f8-d170d39a463c" name="Changes" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/test001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/POST/NonBDD_Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacadamy/POST/NonBDD_Post.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,25 +60,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG./Users/nagarjunakoppala/IdeaProjects/Automation_RestAssured/testng.xml.executor": "Run",
+    "TestNG.NonBDD_Get.executor": "Run",
+    "TestNG.NonBDD_Post.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NonBDD_Get">
-    <configuration name="BDD_Post" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.POST.BDD_Post" />
-      <module name="Automation_RestAssured" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacadamy.POST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.NonBDD_Post">
     <configuration name="Get_NonBDD_2tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.GET.BDD.Get_NonBDD_2tests" />
       <module name="Automation_RestAssured" />
@@ -116,8 +94,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonBDD_Post" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.POST.NonBDD_Post" />
+    <configuration name="NonBDD_Get" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacadamy.GET.BDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacadamy.GET.BDD" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.GET.BDD.NonBDD_Get" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NonBDD_Post" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation_RestAssured" />
       <extension name="coverage">
         <pattern>
@@ -125,6 +119,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacadamy.POST" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacadamy.POST.NonBDD_Post" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NonBDD_Post" />
+        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/Automation_RestAssured/testng.xml" />
+        <item itemvalue="TestNG.NonBDD_Get" />
         <item itemvalue="Application.NonBDD_Get" />
         <item itemvalue="Application.Get_NonBDD_2tests" />
-        <item itemvalue="TestNG./Users/nagarjunakoppala/IdeaProjects/Automation_RestAssured/testng.xml" />
-        <item itemvalue="Application.NonBDD_Post" />
-        <item itemvalue="Application.BDD_Post" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +157,19 @@
       <option name="presentableId" value="Default" />
       <updated>1746117118223</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <option name="closed" value="true" />
+      <created>1746131212332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746131212332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>
