@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class NonBDD_Get {
     @Test
     public void bookingId() {
-        //https://api.zippopotam.us
+        //https://api.zippopotam.us test
         RequestSpecification r= RestAssured.given();
         r.baseUri("https://api.zippopotam.us");
         r.basePath("/IN/501505");
